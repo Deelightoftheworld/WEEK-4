@@ -19,6 +19,7 @@ tagname - last
 
 body{
    font-size: 14px;
+   font-family: "inter", sans-serif;
    background-color: hsl(0, 0%, 8%);
 
 }
@@ -33,7 +34,13 @@ img {
 
 .card {
     background-color: hsl(0, 0%, 12%);
-    width: 30%
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    margin: auto;
+
+
+
 }
 
 .avatar {
@@ -41,30 +48,58 @@ img {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    margin-inline: auto;
+    margin-top: 30px;
 
 }
 
 .name { 
     color: hsl(0, 0%, 100%);
     font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    
 }
 
 .location {
     color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .bio {
     color: hsl(0, 0%, 100%);
+    text-align: center;
 
 }
 
-a{
+.sm{
+    margin-top: 30px;
+}
+
+a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
     font-weight: 600;
     display: block;
     background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
 
+}
 
+a:hover {
+    background-color:  hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%); 
+}
 
+.back{
+    background-color: red;
+}
+
+.back:hover {
+    background-color: red;
+    color: white;
 }

@@ -9,6 +9,7 @@ html {
 }
 
 :root{
+    /* Color vairables */
 --white: hsl(0, 0%, 100%);
 --stone-100: hsl(30, 54%, 90%);
 --stone-150: hsl(30, 18%, 87%);
@@ -41,20 +42,40 @@ body {
     background-color: var(--stone-100);
     font-family: var(--outfit);
     font-size: 1rem;
+    color: var(--stone-600);
 }
 
 
 h1 {
       font-family: var(--young);
+      color: var(--stone-900);
+}
+
+ol ,
+ul {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+ol li,
+ul li {
+    
 }
 
 
+
 .card {
-    width: 50%;
+    width: 750px;
     background-color: var(--white);
     margin-inline: auto;
     padding: 50px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .picture {
@@ -62,13 +83,78 @@ h1 {
     overflow: hidden;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .main h3 {
     color: var(--rose-800);
+    margin-bottom: 20px;
 }
+
+
+.main p {
+    line-height: 1.5;
+    
+}
+
+.main div {
+    background-color: var(--rose-50);
+    padding: 30px;
+    border-radius: 20px; 
+}
+
 
 .heading {
     font-family: var(--young);
     color: var(--brown-800);
+    margin-bottom: 20px;
+}
+
+.method {
+    font-weight: var(--bold);
+
+}
+
+.section {
+    border-bottom: 2px solid var(--stone-150);
+    padding-bottom: 20px;
+}
+
+
+/* Mobile styles */
+@media screen and (max-width : 500px) {
+    body {
+        background-color: red; 
+    }
+
+}
+
+
+.nutrition td {
+    width: 50%;
+      /* border: 1px solid black; */
+    padding: 10px;
+     
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.subheading {
+    font-family: var(--young);
+    color: var(--brown-800);
+    margin-bottom: 10px;
+}
+.color {
+   color: var(--brown-800);  
+}
+ .nutrition tr {
+   border-bottom: 1px solid brown;
 }
 
 

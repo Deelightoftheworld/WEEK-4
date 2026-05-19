@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@ img{
 
 body {
     padding: 100px;
-    background-color: var(--stone-100);
+    background-color: black;
     font-family: var(--outfit);
     font-size: 1rem;
     color: var(--stone-600);
@@ -120,17 +120,67 @@ ul li {
 
 .section {
     border-bottom: 2px solid var(--stone-150);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 
 /* Mobile styles */
 @media screen and (max-width : 500px) {
     body {
-        background-color: red; 
+        padding: 0;
     }
 
 }
+
+.card {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+
+}
+
+.picture {
+    border-radius: 0;
+}
+
+.section, .main {
+    margin: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .nutrition td {
